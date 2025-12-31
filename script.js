@@ -17,3 +17,9 @@ function toggleItalic() {
                 const el = document.getElementById("toggleText");
                 el.classList.toggle("italic");
 }
+
+function changeColor() {
+                const el = document.getElementById("toggleText");
+                const col = document.getElementById("colorWheel");
+                el.color = col.innerHTML;
+}

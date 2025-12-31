@@ -22,7 +22,7 @@
         <br>
         
         <p>Color:</p>
-        <input type="color">
+        <input id="colorWheel" type="color" onchange="changeColor()">
 
         <p id="listen"></p>
 
@@ -35,6 +35,15 @@
         <button onclick="toggleItalic()">
             Toggle Italic
         </button>
+
+        <br>
+
+        <p>Select your virtual assistant:</p>
+        <select name="nameSelect">
+            <option value="Janet"> Janet </option>
+            <option value="Guillaume"> Guillaume </option>
+            <option value="Beetroot"> Beetroot </option>
+        </select>
 
         <script src="script.js"></script>
     </body>
