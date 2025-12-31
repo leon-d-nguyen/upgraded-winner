@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+}
+
+button {
+    margin: 30px;
+    padding: 3px 12px 3 px 12px;
+    border-radius: 20px;
+    font-weight: bold;
+    border: 0px solid;
+    outline: none;
+    background-color: #D9E8FB;
+    color: #4D4D87;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.highlight {
+    background-color: aliceblue;
+}
+
+.underline {
+    text-decoration: underline;
+}
