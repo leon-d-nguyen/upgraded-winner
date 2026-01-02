@@ -20,6 +20,6 @@ function toggleItalic() {
 
 function changeColor() {
                 const el = document.getElementById("toggleText");
-                const col = document.getElementById("colorWheel").value;
-                el.color = col; // TODO: debug, link this function to color of text
+                const selectedColor = document.getElementById("colorWheel").value;
+                el.color = selectedColor; // TODO: debug, link this function to color of text
 }
