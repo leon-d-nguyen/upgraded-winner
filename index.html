@@ -22,7 +22,7 @@
         <br>
         
         <p>Color:</p>
-        <input id="colorWheel" type="color" onchange="changeColor()">
+        <input id="colorWheel" type="color" onclick="changeColor()">
 
         <p id="listen"></p>
 
@@ -40,6 +40,7 @@
 
         <p>Select your virtual assistant:</p>
         <select name="nameSelect">
+            <option selected disabled> Choose assistant: </option>
             <option value="Janet"> Janet </option>
             <option value="Guillaume"> Guillaume </option>
             <option value="Beetroot"> Beetroot </option>
