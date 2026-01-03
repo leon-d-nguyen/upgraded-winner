@@ -22,8 +22,8 @@
         <br>
         
         <p>Color:</p>
-        <input id="colorWheel" type="color" onclick="changeColor()">
-        <!-- TODO: debug, link this function to color of text -->
+        <input id="colorWheel" type="color" onchange="changeColor()">
+        
 
         <p id="listen"></p>
 
@@ -35,6 +35,9 @@
         </button>
         <button onclick="toggleItalic()">
             Toggle Italic
+        </button>
+        <button onclick="changeColor()">
+            Selected Color
         </button>
 
         <br>
