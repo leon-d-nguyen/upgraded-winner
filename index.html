@@ -19,33 +19,34 @@
         <p>This is a test website, purely to experiment with different features of <span class="italic bold">HTML, CSS, and JavaScript.</span></p>
 
         <br>
-        
+        <p id="listen"></p>
+
+        <br>
         <p>Password:</p>
         <input type="password">
         
-        <br>
         
-        <p>Color:</p>
-        <input id="colorWheel" type="color" onchange="changeColor()">
-        
-
-        <p id="listen"></p>
-
-        <p id="toggleText">
-            What do these buttons do?
-        </p>
-        <button onclick="toggleBold()">
-            Toggle Bold
-        </button>
-        <button onclick="toggleItalic()">
-            Toggle Italic
-        </button>
-        <button onclick="changeColor()">
-            Selected Color
-        </button>
+        <div>
+            <br>
+            <p id="toggleText">
+                What do these buttons do?
+            </p>
+            <button onclick="toggleBold()">
+                Toggle Bold
+            </button>
+            <button onclick="toggleItalic()">
+                Toggle Italic
+            </button>
+            <button onclick="changeColor()">
+                Selected Color
+            </button>
+            
+            <br>
+            <p>Color:</p>
+            <input id="colorWheel" type="color" onchange="changeColor()">
+        </div>
 
         <br>
-
         <p>Select your virtual assistant:</p>
         <select name="nameSelect">
             <option selected disabled> Choose assistant: </option>
@@ -71,7 +72,7 @@
                     <li>Oh look!</li>
                     <li>A list</li>
                     <li>Within a list!</li>
-                    <li>and a <a hef="https://www.ecosia.org/">link!</a></li>
+                    <li>and a <a href="https://www.ecosia.org/">link!</a></li>
                 </ol>
             </li>
         </ol>

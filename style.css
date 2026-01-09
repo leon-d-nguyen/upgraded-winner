@@ -13,6 +13,13 @@ button {
     color: #4D4D87;
 }
 
+div {
+    text-align: center;
+    margin: 20px;
+    border: #4D4D87;
+    background-color: bisque;
+}
+
 .italic {
     font-style: italic;
 }
