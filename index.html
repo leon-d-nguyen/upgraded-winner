@@ -37,10 +37,7 @@
             <button onclick="toggleItalic()">
                 Toggle Italic
             </button>
-            <button onclick="changeColor()">
-                Selected Color
-            </button>
-            
+           
             <br>
             <p>Color:</p>
             <input id="colorWheel" type="color" onchange="changeColor()">
@@ -48,7 +45,7 @@
 
         <br>
         <p>Select your virtual assistant:</p>
-        <select name="nameSelect">
+        <select name="nameSelect" onchange="">
             <option selected disabled> Choose assistant: </option>
             <option value="Janet"> Janet </option>
             <option value="Guillaume"> Guillaume </option>
@@ -76,6 +73,15 @@
                 </ol>
             </li>
         </ol>
+
+        <div>
+            <br>
+            <h3>Selected formatting:</h3>
+            <p id="selectedThings">Your virtual assistant<p>
+            <button onclick="changeAssistantText()">
+                Selected Formatting
+            </button>
+        </div>
 
         <script src="script.js"></script>
     </body>
