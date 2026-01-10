@@ -23,3 +23,13 @@ function changeColor() {
                 const selectedColor = document.getElementById("colorWheel").value;
                 el.style.color = selectedColor; // TODO: debug, link this function to color of text
 }
+
+function changeAssistantText() {
+                const el = document.getElementById("selectedThings");
+                const el2 = document.getElementById("toggleText").classList;
+                const selectedColor = document.getElementById("colorWheel").value;
+                const selectedAssistant = document.querySelector("select").value;
+                el.style.color = selectedColor;
+                el.classList = el2;
+                el.innerText = selectedAssistant;
+}
