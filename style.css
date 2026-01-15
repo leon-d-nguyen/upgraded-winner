@@ -17,6 +17,10 @@ img {
     width: 70%;
 }
 
+p, h3, button {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 .section1 {
     text-align: center;
     margin: 20px;
