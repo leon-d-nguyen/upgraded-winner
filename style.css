@@ -21,6 +21,18 @@ p, h3, button {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+a, em, strong {
+    display: inline; /* this is the default value */
+}
+
+p, h2 {
+    display: block; /* this is the default value */
+}
+
+button, img {
+    display: inline-block; /* this is the default value */
+}
+
 .section1 {
     text-align: center;
     margin: 20px;
@@ -33,6 +45,12 @@ p, h3, button {
     margin: 20px;
     border: 2px dotted #fff020;
     background-color: rgb(196, 251, 255);
+}
+
+.drop {
+    display: inline-block;
+    height: 80px;
+    background-color: rgb(92, 214, 157);
 }
 
 .italic {
