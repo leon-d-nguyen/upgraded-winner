@@ -53,10 +53,15 @@ button, img {
     clear: both;
 }
 
-.drop {
+.drop1 {
     display: inline-block;
     height: 80px;
     background-color: rgb(92, 214, 157);
+}
+
+.drop2 {
+    position: relative;
+    top: 80px
 }
 
 .italic {
