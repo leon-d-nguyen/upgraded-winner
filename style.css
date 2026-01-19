@@ -14,7 +14,7 @@ button {
 }
 
 img {
-    width: 50%;
+    width: 30%;
     float: left;
 }
 
@@ -32,6 +32,20 @@ p, h2 {
 
 button, img {
     display: inline-block; /* this is the default value */
+}
+
+#sidetag {
+    padding: 5px;
+    width: 120px;
+    background-color: moccasin;
+    position: absolute;
+    right: 0px;
+}
+
+#derpycat {
+    z-index: 0;
+    position: absolute;
+    left: 0px;
 }
 
 .section1 {
