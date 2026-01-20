@@ -43,9 +43,47 @@ button, img {
 }
 
 #derpycat {
-    z-index: 0;
-    position: absolute;
-    left: 0px;
+    z-index: 0; 
+    /* default z-value for layering elements */
+}
+
+#catcollage {
+    float: left;
+    width: 45%;
+    height: 700px;
+    background-color: antiquewhite;
+    margin: 2%;
+}
+
+#catcollagetext {
+    float: right;
+    width: 50%;
+    height: 700px;
+}
+
+
+#stretchingcat {
+    position: relative;
+    left: 5%;
+    top: 6%;
+    z-index: 3; 
+    scale: 120%; 
+}
+
+#tiltheadcat {
+    position: relative;
+    left: 0%;
+    top: 50%;
+    z-index: 2;
+    scale: 120%; 
+}
+
+#flowercat {
+    position: relative;
+    left: -5%;
+    top: 25%;
+    z-index: 1; 
+    scale: 150%; 
 }
 
 .section1 {
@@ -62,6 +100,10 @@ button, img {
     border: 2px dotted #fff020;
     background-color: rgb(196, 251, 255);
 }
+
+/* .collage { */
+    /* float: left; */
+/* } */
 
 .clear {
     clear: both;
