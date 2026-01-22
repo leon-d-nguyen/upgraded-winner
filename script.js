@@ -1,6 +1,7 @@
 function connect() {
                 document.getElementById("listen").innerHTML 
-                = "Listen to music and podcasts.";
+                = "Listen to music and podcasts. " + emote.ursa(); 
+                // attempting to incorporate js library
             }
 
 function follow() {
@@ -33,3 +34,13 @@ function changeAssistantText() {
                 el.classList = el2;
                 el.innerText = selectedAssistant;
 }
+
+let clickerCount = 0;
+function clickerIncrease() {
+    // const el = document.getElementById("clickerCounter").innerHTML;
+    // let clickerCount = clickerCount + 1;
+    // el = "You've clicked this button " + clickerCount + " times!";
+    // let clickerCount = clickerCount + 1;
+    document.getElementById("clickerCounter").innerHTML = "You've clicked this button " + clickerCount + " times!";
+}
+
