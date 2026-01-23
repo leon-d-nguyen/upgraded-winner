@@ -37,7 +37,9 @@ function changeAssistantText() {
 
 let clickerCount = 0;
 function clickerIncrease() {
-    clickerCount++; // TODO: figure out how to increase counter
+    clickerCount++; // increase counter by 1
     document.getElementById("clickerCounter").innerHTML = "You've clicked this button " + clickerCount + " times!";
 }
-
+while (clickerCount < 10) {
+    document.getElementById("clickerCounter1").innerHTML = "Start clicking!";    
+}
