@@ -22,7 +22,7 @@ function toggleItalic() {
 function changeColor() {
                 const el = document.getElementById("toggleText");
                 const selectedColor = document.getElementById("colorWheel").value;
-                el.style.color = selectedColor; // TODO: debug, link this function to color of text
+                el.style.color = selectedColor; 
 }
 
 function changeAssistantText() {
@@ -37,10 +37,7 @@ function changeAssistantText() {
 
 let clickerCount = 0;
 function clickerIncrease() {
-    // const el = document.getElementById("clickerCounter").innerHTML;
-    // let clickerCount = clickerCount + 1;
-    // el = "You've clicked this button " + clickerCount + " times!";
-    // let clickerCount = clickerCount + 1;
+    clickerCount++; // TODO: figure out how to increase counter
     document.getElementById("clickerCounter").innerHTML = "You've clicked this button " + clickerCount + " times!";
 }
 
