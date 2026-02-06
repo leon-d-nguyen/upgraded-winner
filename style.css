@@ -101,6 +101,39 @@ button, img {
     background-color: rgb(196, 251, 255);
 }
 
+.section3 {
+    text-align: left;
+    margin: 20px;
+    border: 4px solid #d8842f;
+    clear: both;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-row-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-col-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.divitem {
+    text-align: left;
+    margin: 10px;
+    border: 4px solid #7171a7;
+}
+
 .clear {
     clear: both;
 }
