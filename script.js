@@ -39,9 +39,9 @@ let clickerCount = 0;
 function clickerIncrease() {
     clickerCount++; // increase counter by 1
     document.getElementById("clickerCounter").innerHTML = "You've clicked this button " + clickerCount + " times!";
-    for (i = 0; i <= clickerCount; i++) {
-       console.log("Click!")
-    }
+    // for (i = 0; i <= clickerCount; i++) {
+    //    console.log("Click!")
+    // }
 }
 // while (clickerCount < 10) {
 //     document.getElementById("clickerCounter1").innerHTML = "Start clicking!";    
